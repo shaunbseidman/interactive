@@ -1,0 +1,12 @@
+ 1733  mkdir notes
+ 1734  mv cli.md notes
+ 1735  notes
+ 1736  cp cli.md cli-2.md
+ 1737  ls
+ 1738  rm cl.md
+ 1739  rm cli.md
+ 1740  mv cli-2.md cli.md
+ 1741  cd..
+ 1742  cd . .
+ 1743  cd ..
+ 1744  rm -rf notes
