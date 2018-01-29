@@ -1,0 +1,75 @@
+body {
+  min-width: 1000px;
+  min-height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.column {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  display: inline;
+}
+
+.rowDivs {
+  display: flex;
+  border: 0px solid black;
+  width: 20px;
+  height: 20px;
+  flex-wrap: wrap;
+}
+
+.blankCanvas {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 670px;
+  bottom: auto;
+}
+
+.individualColor {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  box-shadow: 0 0 0 1px grey
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+#white {
+  background-color: white;
+}
+
+#black {
+  background-color: black;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#purple {
+  background-color: purple;
+}
